@@ -5,19 +5,10 @@ import os
 HOST = "localhost"
 
 ROUTER_TELNET_PORTS = {
-    "R1": 5005,
-    "R2": 5006,
-    "R3": 5007,
-    "R4": 5008,
-    "R5": 5001,
-    "R6": 5009,
-    "R7": 5010,
-    "R8": 5011,
-    "R9": 5012,
-    "R10": 5013,
-    "R11": 5000,
-    "R12": 5002,
-    "R13": 5003,
+    "R1": 5001,
+    "R2": 5002,
+    "R3": 5003,
+    "R4": 5004
 }
 
 CONFIG_DIR = "configs_gen" #chaanger selon l'adresse des configs générées
@@ -106,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
