@@ -130,6 +130,14 @@ La chaîne complète du projet est donc :
 
 JSON → Script Python → Configurations Cisco → Bot Telnet → GNS3
 
+Pour lancer tout la configuration automatique il vous faut:
+
+1. Ouvrir le reseau GNS3 souhaité.
+2. Lancer le programme config_script.py, le dossier des configurations des routeurs est généré.
+3. Lancer le programme deploy.py, le bot il va initialiser la config de chaque routeur en copiant et collant les configs générées précedemment.
+4. Initialiser les routeurs sur GNS3.
+5. Lancer le programme deploy_telnet.py pour lancer telnet.
+
   
 
 Loujaine, Clara, Juan Pablo et Jade
