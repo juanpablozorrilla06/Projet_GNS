@@ -14,7 +14,7 @@ ROUTER_TELNET_PORTS = {
 CONFIG_DIR = "configs_gen" #chaanger selon l'adresse des configs générées
 
 
-def clean_lines_for_cli(cfg_text: str):
+def clean_lines_for_cli(cfg_text):
     """
     Nettoyage : on enlève les lignes inutiles, et on évite les doublons
     """
@@ -46,7 +46,7 @@ def clean_lines_for_cli(cfg_text: str):
     return lines
 
 
-def deploy_router(router_name: str):
+def deploy_router(router_name):
     port = ROUTER_TELNET_PORTS[router_name]
     cfg_path = os.path.join(CONFIG_DIR, f"{router_name}.cfg")
 
@@ -97,4 +97,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
