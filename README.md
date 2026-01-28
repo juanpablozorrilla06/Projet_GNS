@@ -124,6 +124,8 @@ R1.cfg, R2.cfg, R3.cfg, etc., dans le dossier `configs_gen`.
 # 9. Déploiement automatique
 Le bot basé sur Telnet permet ensuite d’automatiser le déploiement.
 
+**La version python pour le déploiement avec telnet doit être Python 3.12.x (ou inférieur)**
+
 Il se connecte directement aux routeurs GNS3 et injecte les fichiers de configuration générés. Le réseau complet peut ainsi être déployé en quelques secondes sans aucune configuration manuelle.
 
 La chaîne complète du projet est donc :
